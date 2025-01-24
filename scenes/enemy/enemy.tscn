@@ -1,5 +1,9 @@
-[gd_scene format=3 uid="uid://njxniwxg07hq"]
+[gd_scene load_steps=2 format=3 uid="uid://njxniwxg07hq"]
+
+[ext_resource type="Texture2D" uid="uid://da5qe6hn88lpw" path="res://icon.svg" id="1_oevre"]
 
 [node name="Enemy" type="Node2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(546, 103)
+texture = ExtResource("1_oevre")
